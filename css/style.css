@@ -44,11 +44,21 @@ body{
     display: none;
 }
 /*-- banner --*/
-.banner{
-    background: url(../images/Power-Transmission-Distribution.jpg) no-repeat 0px 0px;
+ .homebanner-1{
+    background: url(../images/Power-Transmission-Distribution.jpg) no-repeat 0px 0px; 
     background-size: cover;
 	min-height:750px;
-}
+} 
+ .homebanner-2{
+    background: url(../images/PEB.jpeg) no-repeat 0px 0px; 
+    background-size: cover;
+	min-height:750px;
+} 
+ .homebanner-3{
+    background: url(../images/compact-substations.jpg) no-repeat 0px 0px; 
+    background-size: cover;
+	min-height:750px;
+} 
 .agileinfo-dot {
     background: url(../images/dott.png)repeat 0px 0px;
     background-size: 3px;
@@ -430,11 +440,11 @@ body{
     text-align: center;
     font-size: 3em;
     font-weight: bold;
-    color: #fff;
+    color: #FF8C00;
     text-transform: uppercase;
 }
 .agileits_w3layouts_banner_info p {
-    color: #ffffff;
+    color: #FF8C00;
     text-align: center;
     line-height: 28px;
     width: 63%;
