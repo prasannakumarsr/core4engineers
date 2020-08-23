@@ -70,6 +70,14 @@ body{
 	min-height:750px;
 	
 }
+.trans-icon {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+}
 .career-form {
     margin-top: 5rem;
     background-color: black;
