@@ -45,7 +45,7 @@ body{
 }
 /*-- banner --*/
 .banner{
-    background: url(../images/1.jpg) no-repeat 0px 0px;
+    background: url(../images/Power-Transmission-Distribution.jpg) no-repeat 0px 0px;
     background-size: cover;
 	min-height:750px;
 }
@@ -60,10 +60,26 @@ body{
 	min-height:750px;
 	
 }
+.career-form {
+    margin-top: 5rem;
+    background-color: black;
+    padding: 50px;
+}
 .banner-1{
-    background: url(../images/1.jpg) no-repeat 0px 0px;
+    background: url(../images/electrical-services.jpg) no-repeat 0px 0px;
     background-size: cover;
-	min-height:350px;
+	min-height:450px;
+}
+
+.banner-2{
+    background: url(../images/electrical-panel.jpeg) no-repeat 0px 0px;
+    background-size: cover;
+	min-height:450px;
+}
+.banner-3{
+    background: url(../images/career.png) no-repeat 0px 0px;
+    background-size: cover;
+	min-height:450px;
 }
 .agileinfo-dot-1 {
     background: url(../images/dott.png)repeat 0px 0px;
@@ -139,6 +155,7 @@ body{
 }
 .navbar-nav {
 	margin:0 0 0 4em;
+    font-size: 12px;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color:#fb5710;
