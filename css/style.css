@@ -209,7 +209,7 @@ body {
 }
 
 .navbar-nav {
-    margin: 0 0 0 4em;
+    margin: 20px 0 0 30px;
     font-size: 12px;
 }
 
@@ -538,6 +538,13 @@ ul.nav.navbar-nav li.active a::before {
     color: #FFF;
     text-transform: uppercase;
     background-color: #000;
+}
+
+.tag-line {
+    font-size: 10px;
+    color: #FFF;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .agileits_w3layouts_banner_info p {
@@ -1928,6 +1935,10 @@ h2.typoh2 {
     .grid_3 {
         margin-bottom: 0em;
     }
+
+    h2 {
+        font-size: 24px;
+    }
 }
 
 @media (max-width:640px) {
@@ -2772,7 +2783,7 @@ ul.agileinfo_social_icons {
     }
 
     .footer input[type="submit"] {
-        font-size: 1em;
+        font-size: 0.7em;
     }
 
     .banner-bottom {
