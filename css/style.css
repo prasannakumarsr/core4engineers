@@ -75,6 +75,13 @@ body {
     opacity: 0.9;
 }
 
+.homebanner-4 {
+    background: url(../images/eng_sol.jpg) no-repeat 0px -300px;
+    background-size: cover;
+    min-height: 750px;
+    opacity: 0.9;
+}
+
 .agileinfo-dot {
     background: url(../images/dott.png)repeat 0px 0px;
     background-size: 3px;
@@ -120,6 +127,12 @@ body {
     min-height: 450px;
 }
 
+.banner-about {
+    background: url(../images/logo%20without%20background.png) no-repeat 0px 0px;
+    background-size: cover;
+    min-height: 450px;
+}
+
 .agileinfo-dot-1 {
     background: url(../images/dott.png)repeat 0px 0px;
     background-size: 3px;
@@ -127,7 +140,7 @@ body {
     -moz-background-size: 3px;
     -o-background-size: 3px;
     -ms-background-size: 3px;
-    min-height: 350px;
+    min-height: 450px;
 
 }
 
@@ -558,17 +571,19 @@ ul.nav.navbar-nav li.active a::before {
     color: #FFF;
     text-align: center;
     margin-top: 50px;
+    font-weight: 700;
 }
 
 .agileits_w3layouts_banner_info p {
-    color: #2196F3;
+    color: #000;
     text-align: center;
     line-height: 28px;
     width: 63%;
     margin: 30px auto;
     font-size: 17px;
     font-weight: 700;
-    text-shadow: 2px 0px #000;
+    background-color: white;
+    opacity: 0.7;
 }
 
 .agileits_w3layouts_banner_info {
@@ -1952,6 +1967,13 @@ h2.typoh2 {
 
     h2 {
         font-size: 24px;
+    }
+
+    .homebanner-4 {
+        background: url(../images/eng_sol.jpg) no-repeat 0px 0px;
+        background-size: cover;
+        min-height: 750px;
+        opacity: 0.9;
     }
 }
 
